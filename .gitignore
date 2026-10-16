@@ -21,3 +21,15 @@ backend/data/*.lock.db
 # OS
 .DS_Store
 Thumbs.db
+# Ignore local database files
+data/*.mv.db
+data/*.trace.db
+data/*.lock.db
+backend/data/*.mv.db
+backend/data/*.trace.db
+backend/data/*.lock.db
+
+# Ignore Java build output
+**/target/
+*.class
+*.jar
